@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giỏ hàng - Cafe Dog</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">🐾 Cafe Dog</div>
+    <nav>
+      <a href="indexx.html">Trang chủ</a>
+      <a href="about.html">Giới thiệu</a>
+      <a href="contact.html">Liên hệ</a>
+      <a href="cart.html" class="active">Giỏ hàng 🛒</a>
+    </nav>
+  </header>
+
+  <section class="cart">
+    <h1>Giỏ hàng của bạn</h1>
+    <div id="cart-items"></div>
+    <h2 id="total">Tổng: 0đ</h2>
+    <button onclick="checkout()">Thanh toán</button>
+  </section>
+
+  <footer>
+    <p>© 2025 Cafe Dog</p>
+  </footer>
+</body>
+</html>

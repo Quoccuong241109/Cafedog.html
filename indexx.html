@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Dog - Trang chủ</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">🐾 Cafe Dog</div>
+    <nav>
+      <a href="indexx.html">Trang chủ</a>
+      <a href="about.html">Giới thiệu</a>
+      <a href="contact.html">Liên hệ</a>
+      <a href="cart.html">Giỏ hàng 🛒</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Chào mừng đến với Cafe Dog</h1>
+    <p>Nơi thưởng thức cà phê và đồ ăn vặt ngon nhất</p>
+  </section>
+
+  <section class="menu">
+    <h2>Menu Hôm Nay</h2>
+    <div class="menu-items">
+      <!-- 5 món nước -->
+      <div class="item">
+        <img src="https://product.hstatic.net/200000745755/product/4_ccceb5085680488b824d1e1308b49921_master.jpg" alt="Cà phê sữa đá">
+        <h3>Cà phê sữa đá</h3>
+        <p>25.000đ</p>
+        <button onclick="addToCart('Cà phê sữa đá',25000)">Mua ngay</button>
+      </div>
+      <div class="item">
+        <img src="https://www.cubes-asia.com/wp-content/uploads/2021/12/Ca-phe-Capuchino-2.jpg" alt="Cappuccino">
+        <h3>Cappuccino</h3>
+        <p>35.000đ</p>
+        <button onclick="addToCart('Cappuccino',35000)">Mua ngay</button>
+      </div>
+      <div class="item">
+        <img src="https://eggyolk.vn/wp-content/uploads/2024/07/Latte-recipe.jpg" alt="Latte">
+        <h3>Latte</h3>
+        <p>40.000đ</p>
+        <button onclick="addToCart('Latte',40000)">Mua ngay</button>
+      </div>
+      <div class="item">
+        <img src="https://beptruong.edu.vn/wp-content/uploads/2020/10/tra-dao-cam-sa.jpg" alt="Trà đào">
+        <h3>Trà đào</h3>
+        <p>30.000đ</p>
+        <button onclick="addToCart('Trà đào',30000)">Mua ngay</button>
+      </div>
+      <div class="item">
+        <img src="https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2022/2/19/cach-lam-nuoc-cam-ep-ngon-va-thom-ket-hop-voi-le-va-gung-5-1645248090817401855254.jpg" alt="Nước cam ép">
+        <h3>Nước cam ép</h3>
+        <p>28.000đ</p>
+        <button onclick="addToCart('Nước cam ép',28000)">Mua ngay</button>
+      </div>
+      <!-- 5 món ăn vặt -->
+      <div class="item">
+        <img src="https://www.huongnghiepaau.com/wp-content/uploads/2019/01/mon-banh-gion-thom.jpg" alt="Bánh mì bơ tỏi">
+        <h3>Bánh mì bơ tỏi</h3>
+        <p>20.000đ</p>
+        <button onclick="addToCart('Bánh mì bơ tỏi',20000)">Mua ngay</button>
+      </div>
+      <div class="item">
+        <img src="https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/2023_9_28_638315154313184024_cach-lam-khoai-tay-chien-1.JPG" alt="Khoai tây chiên">
+        <h3>Khoai tây chiên</h3>
+        <p>25.000đ</p>
+        <button onclick="addToCart('Khoai tây chiên',25000)">Mua ngay</button>
+      </div>
+      <div class="item">
+        <img src="https://ausashop.com/wp-content/uploads/2021/10/word-image-156.jpeg" alt="Bánh ngọt socola">
+        <h3>Bánh ngọt socola</h3>
+        <p>50.000đ</p>
+        <button onclick="addToCart('Bánh ngọt socola',30000)">Mua ngay</button>
+      </div>
+      <div class="item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFCCtztt-tNi7l94AMHLMuua4CPJXMe_TqCg&s" alt="Pizza mini">
+        <h3>Pizza mini</h3>
+        <p>35.000đ</p>
+        <button onclick="addToCart('Pizza mini',35000)">Mua ngay</button>
+      </div>
+      <div class="item">
+        <img src="https://cokhiviendong.com/wp-content/uploads/2019/01/kinnh-nghi%E1%BB%87m-m%E1%BB%9F-qu%C3%A1n-g%C3%A0-r%C3%A1n-7.jpg" alt="Gà rán">
+        <h3>Gà rán</h3>
+        <p>40.000đ</p>
+        <button onclick="addToCart('Gà rán',40000)">Mua ngay</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Cafe Dog - An Thạnh, Bến Lức, Tây Ninh</p>
+  </footer>
+</body>
+</html>
